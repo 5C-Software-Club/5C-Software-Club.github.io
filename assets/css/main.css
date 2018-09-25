@@ -3095,12 +3095,14 @@ input, select, textarea {
 				transition-delay: 0s;
 				display: block;
 				margin: 0 0 1.5em 0;
+
 			}
 
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					image-rendering: -webkit-optimize-contrast;
+					max-width: 17%;
 				}
 
 		@media screen and (max-width: 1280px) {
